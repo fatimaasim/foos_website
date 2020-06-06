@@ -1,0 +1,234 @@
+.inner-1{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: goldenrod;
+    text-align: center;
+    font-weight: bold;
+}
+
+.carousel-caption>h5 {
+    color: goldenrod;
+    font-weight: bold !important;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: x-larger !important;
+}
+
+.carousel-caption>p{
+    color: white;
+
+
+}
+
+.inner-2{
+    font-weight: bold;
+    text-align: center;
+}
+p{
+    text-align: center;
+    color:black;
+    font-size: 20px;
+}
+.inner>button{
+    border: 2px solid goldenrod;
+    background-color:ivory;
+    text-align: center;
+    border-radius: 2%;
+    color: black;
+    margin-left: 40%;
+}
+.inner>button>a{
+    text-decoration: none;
+}
+
+
+.col>img:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    opacity: 0.3;
+
+
+}
+.navbar-expand-lg {
+    background-color:goldenrod !important;
+}
+    
+.nav-link{
+    color:black !important;
+    
+}
+.navbar-brand{
+    color:black!important;
+    margin: 5px;
+    font-weight: bold !important;
+}
+
+.img-fluid{
+    border: 2px solid black;
+}
+
+.footer{
+    background-color:black;
+    width: 100%;
+    height: 40%;
+    margin-top: -2%;
+    text-align: center;
+}
+.Contact{
+    color:goldenrod;
+    font-size: large;
+}
+
+.copy{
+    background-color: goldenrod;
+    width: 100%;
+    height: 35px;
+    
+    text-align: center;
+}
+    
+    
+.copy>h5{
+   padding: 0.5%;
+    font-size: small;
+    color: black;
+
+
+}
+
+.About{
+    margin: 2%;
+}
+.inner>p,h3{
+   
+   text-align: left;
+}
+.col>img{
+    margin-left: auto;
+}
+.form1{
+    text-align:justify;
+    margin-left: 40%;
+    margin-top: 3%;
+    width: 200px;
+    
+}
+.main-menu,.main-soups,.main-chicken,.main-mutton,.main-veg,.main-bread,.main-rice,.main-desert,.main-drink{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 3%;
+    flex-wrap: wrap;
+    
+}
+.appetizers,.appetizers2,.appetizers3,.appetizers4,.soup1,.chiceken1,.mutton-1,.veg-1,.bread-1,.rice-1,.desert-1,.drink-1,.drink-2{
+   display: flex;
+   width: 300px;
+   height: 100px;
+   border: 2px solid grey;
+   box-shadow: 5px 10px 8px #888888;
+   
+  
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.reviews{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 3%;
+    flex-wrap: wrap;
+   
+}
+
+
+
+.review-1{
+    background-color:ivory;
+   
+   display: flex;
+   width: 400px;
+   height: 200px;
+   border: 2px solid grey;
+   margin:3%;
+   margin-left: 40%;
+   box-shadow: 5px 10px 8px #888888;
+   padding: 1.5%;
+
+}
+
+
+sub{
+    color: goldenrod;
+    
+        vertical-align: sub;
+        font-size:large;
+    
+}
+
+.nav-link-active{
+    color: white !important;
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: goldenrod;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color:goldenrod;
+  }
+  
+  /* Style the container/contact section */
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* Create two columns that float next to eachother */
+  .column {
+    float: left;
+    width: 50%;
+    margin-top: 6px;
+    padding: 20px;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .column, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
+
+
+
+
+
+  }
